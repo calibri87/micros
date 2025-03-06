@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@micros/library-ui": ["libs/library-ui/src/index.ts"],
+      "feature1/Module": ["apps/feature1/src/app/remote-entry/entry.module.ts"],
+      "feature2/Module": ["apps/feature2/src/app/remote-entry/entry.module.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
